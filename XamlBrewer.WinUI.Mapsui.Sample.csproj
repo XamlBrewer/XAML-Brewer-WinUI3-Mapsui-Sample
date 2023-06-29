@@ -13,6 +13,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\About.png" />
+    <None Remove="Assets\Beer.ico" />
     <None Remove="Assets\Gallery.png" />
     <None Remove="Assets\Home.png" />
     <None Remove="Assets\MapsuiLogo.png" />
