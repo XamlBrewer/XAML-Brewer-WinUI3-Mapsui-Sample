@@ -14,6 +14,6 @@
 //    {
 //        cache = Path.GetFileNameWithoutExtension(cache);
 //        var assembly = typeof(WmsProjectionTilingSample).GetTypeInfo().Assembly;
-//        assembly.CopyEmbeddedResourceToFile("Mapsui.Samples.Common.GeoData.Cache.", CacheLocation, cache + ".sqlite");
+//        assembly.CopyEmbeddedResourceToFile("MXamlBrewer.WinUI3.Mapsui.Sample.Mapsui.Samples.Common.GeoData.Cache.", CacheLocation, cache + ".sqlite");
 //    }
 //}

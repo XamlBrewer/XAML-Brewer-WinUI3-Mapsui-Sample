@@ -42,7 +42,7 @@ public class SvgSample : ISample
         return randomPoints.Select(p =>
         {
             var feature = new PointFeature(p) { ["Label"] = counter.ToString() };
-            feature.Styles.Add(CreateSvgStyle(@"Images.Pin.svg", 0.5));
+            feature.Styles.Add(CreateSvgStyle(@"Mapsui.Samples.Common.Images.Pin.svg", 0.5));
             counter++;
             return feature;
         });

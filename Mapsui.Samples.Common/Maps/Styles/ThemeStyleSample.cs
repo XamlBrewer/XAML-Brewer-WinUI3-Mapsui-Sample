@@ -103,7 +103,7 @@ public class ThemeStyleSample : ISample
 
     private static SymbolStyle CreateCityStyle()
     {
-        var location = typeof(GeodanOfficesLayerBuilder).LoadBitmapId("Images.location.png");
+        var location = typeof(GeodanOfficesLayerBuilder).LoadBitmapId("Mapsui.Samples.Common.Images.location.png");
 
         return new SymbolStyle
         {

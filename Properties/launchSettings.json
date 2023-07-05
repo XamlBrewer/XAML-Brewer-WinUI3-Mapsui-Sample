@@ -1,9 +1,9 @@
 {
   "profiles": {
-    "XamlBrewer.WinUI.Mapsui.Sample (Package)": {
+    "XamlBrewer.WinUI.Mapsui3.Sample (Package)": {
       "commandName": "MsixPackage"
     },
-    "XamlBrewer.WinUI.Mapsui.Sample (Unpackaged)": {
+    "XamlBrewer.WinUI3.Mapsui.Sample (Unpackaged)": {
       "commandName": "Project"
     }
   }

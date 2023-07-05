@@ -4,10 +4,10 @@ using Mapsui.Providers;
 using Mapsui.Samples.Common.DataBuilders;
 using Mapsui.Styles;
 using Mapsui.Tiling;
+using Mapsui.UI;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mapsui.UI;
 
 namespace Mapsui.Samples.Common.Maps.Geometries;
 
@@ -34,13 +34,13 @@ public class VariousSample : ISample, ISampleTest
         return new Layer("Style on Layer")
         {
             DataSource = new MemoryProvider(RandomPointsBuilder.GenerateRandomPoints(envelope, count).ToFeatures()),
-            Style = CreateBitmapStyle("Images.ic_place_black_24dp.png")
+            Style = CreateBitmapStyle("Mapsui.Samples.Common.Images.ic_place_black_24dp.png")
         };
     }
 
     private static ILayer CreateLayerWithStyleOnFeature(MRect? envelope, int count = 25)
     {
-        var style = CreateBitmapStyle("Images.loc.png");
+        var style = CreateBitmapStyle("Mapsui.Samples.Common.Images.loc.png");
 
         return new Layer("Style on feature")
         {

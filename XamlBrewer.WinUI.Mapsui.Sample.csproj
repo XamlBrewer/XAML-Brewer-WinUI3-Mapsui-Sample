@@ -10,6 +10,7 @@
     <PublishProfile>win10-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
+    <AssemblyName>XamlBrewer.WinUI3.Mapsui.Sample</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\About.png" />
@@ -47,6 +48,14 @@
     <None Remove="Mapsui.Samples.Common\GeoData\World\rivers.shp" />
     <None Remove="Mapsui.Samples.Common\GeoData\World\rivers.shp.sidx" />
     <None Remove="Mapsui.Samples.Common\GeoData\World\rivers.shx" />
+    <None Remove="Mapsui.Samples.Common\Images\Ghostscript_Tiger.svg" />
+    <None Remove="Mapsui.Samples.Common\Images\home.png" />
+    <None Remove="Mapsui.Samples.Common\Images\icon.png" />
+    <None Remove="Mapsui.Samples.Common\Images\ic_place_black_24dp.png" />
+    <None Remove="Mapsui.Samples.Common\Images\loc.png" />
+    <None Remove="Mapsui.Samples.Common\Images\location.png" />
+    <None Remove="Mapsui.Samples.Common\Images\osm-liberty.png" />
+    <None Remove="Mapsui.Samples.Common\Images\Pin.svg" />
     <None Remove="Shell.xaml" />
     <None Remove="Views\AboutPage.xaml" />
     <None Remove="Views\GalleryPage.xaml" />
@@ -61,6 +70,17 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <EmbeddedResource Include="Mapsui.Samples.Common\Images\Ghostscript_Tiger.svg" />
+    <EmbeddedResource Include="Mapsui.Samples.Common\Images\home.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mapsui.Samples.Common\Images\icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mapsui.Samples.Common\Images\ic_place_black_24dp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mapsui.Samples.Common\Images\loc.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -154,6 +174,9 @@
     <EmbeddedResource Include="Mapsui.Samples.Common\GeoData\World\rivers.shx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mapsui.Samples.Common\Images\location.png" />
+    <EmbeddedResource Include="Mapsui.Samples.Common\Images\osm-liberty.png" />
+    <EmbeddedResource Include="Mapsui.Samples.Common\Images\Pin.svg" />
   </ItemGroup>
 
   <ItemGroup>
